@@ -47,3 +47,10 @@ print(max)
 c=years.count(1998)
 print(c)
 
+# years dizisinin tüm elemanlarını siliniz
+
+years.clear()
+print(years)
+
+
+
