@@ -30,10 +30,27 @@ name = input("öğrenci adı: ")
 surname = input("öğrenci soyadı: ")
 phone = input("öğrenci telefon: ")
 
-ogrenciler[number] = {
-    "ad": name,
-    "soyad" : surname,
-    "telefon": phone
-}
+# ogrenciler[number] = {
+#     "ad": name,
+#     "soyad" : surname,
+#     "telefon": phone
+# }
 
+
+
+
+ogrenciler.update({
+    number :{
+        "ad": name,
+        "soyad": surname,
+        "telefon": phone
+    }
+}
+    #yukardakiyle aynısını yaptık ancak update() fonksiyonu ile daha fazla veri eklememiz mümkün
+)
 print(ogrenciler)
+
+ogrno = input("öğrenci no: ")
+ogrenci = ogrenciler[number]
+
+print(ogrenci)
