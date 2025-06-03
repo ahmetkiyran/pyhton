@@ -13,8 +13,10 @@ y = 10
 a = ["apple","banana"]
 b = ["apple","banana"]
 
-a = b
+a = b# aynı adresi gösterdiğinden dolayı b de yapılan değişiklik ikisini de etkiler.
 
 b[0] = "grape"
 
 print(a,b)
+
+# value type larda verinin kendisiyle reference typelarda verinin adresiyle ilgileniriz.
