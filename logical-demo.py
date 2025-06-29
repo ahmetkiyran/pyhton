@@ -40,6 +40,7 @@ print(f'a en büyük sayıdır : {result}')"""
   # ortalama 50 olsa bile final notu en az 50 olmalıdır
   # finalden 70 alındığında ortalamanın önemi olmasın 
   
+from re import A
 from matplotlib.pylab import f
 
 
