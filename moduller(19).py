@@ -8,4 +8,3 @@ from math import * # sağlıklı değil çünkü python burda hangisi sonda ekli
 print(factorial(5))
 
 print(ceil(5.7))
-
