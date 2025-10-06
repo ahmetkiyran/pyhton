@@ -1,0 +1,1 @@
+#nesne tabanlı programlamada etrafımızdaki nesneleri oluşturup bu nesnelere özellikler atayıp bu nesneleri yönetebiliriz.
