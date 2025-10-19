@@ -1,5 +1,1 @@
-Ahmet Kıyran
-osmaniye
-düziçi
-bilgisayar mühendisi
-konya
+python,java,c,php programlama dilleridir.
